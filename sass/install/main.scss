@@ -15,18 +15,18 @@
 }
 
 .hide {display: none;}
-.modal {
-	width: 400px;
-	display: none;
-	padding-left: 40px;
-	padding-right: 40px;
-	font-size: 35px;
-	color: #fff;
-	background: #748fab;
-	text-align: center;
-	padding-bottom: 30px;
-	padding-top: 40px;
-}
+// .modal {
+// 	width: 400px;
+// 	display: none;
+// 	padding-left: 40px;
+// 	padding-right: 40px;
+// 	font-size: 35px;
+// 	color: #fff;
+// 	background: #748fab;
+// 	text-align: center;
+// 	padding-bottom: 30px;
+// 	padding-top: 40px;
+// }
 
 ul {
 	margin: 0;padding: 0;
@@ -45,27 +45,27 @@ p {margin: 0; padding: 0;}
 	font-family: "MyriadProRegular";
 }
 
-input:not([type=submit]) {
+// input:not([type=submit]) {
 
-}
+// }
 
-input[type=submit] {
-	display: inline-block;
-	outline: none;
-	border: none;
+// input[type=submit] {
+// 	display: inline-block;
+// 	outline: none;
+// 	border: none;
 	
-	&:hover {
-		background: #6db82a;
-	}
-	&:active {
-		-webkit-transform: translateY(1px);    
-		-ms-transform: translateY(1px);    
-		transform: translateY(1px);
-	}
-}
-input.error {
-	border: 2px solid red !important;
-}
+// 	&:hover {
+// 		background: #6db82a;
+// 	}
+// 	&:active {
+// 		-webkit-transform: translateY(1px);    
+// 		-ms-transform: translateY(1px);    
+// 		transform: translateY(1px);
+// 	}
+// }
+// input.error {
+// 	border: 2px solid red !important;
+// }
 
 
 
@@ -123,7 +123,7 @@ header {
 	.nav {
 		display: inline-block;
 		vertical-align: middle;
-		padding-left: 24px;
+		padding-left: 30px;
 		li {
 			display: inline-block;
 			vertical-align: top;
@@ -134,7 +134,7 @@ header {
 				color: #052d40;
 				display: inline-block;
 				font-size: 20px;
-				padding: 21px 17px 16px;
+				padding: 21px 19px 16px;
 				text-transform: uppercase;
 				&:hover {
 					color: white;
@@ -146,7 +146,7 @@ header {
 	.social {
 		li {
 			display: inline-block;
-			margin: 0 4px;
+			margin: 0 6px;
 			vertical-align: top;
 			&:last-child {margin-right: 0;}
 			a {
@@ -172,7 +172,7 @@ header {
 .section-slider {
 	.slider {
 		li {
-			height: 777px;
+			height: 708px;
 		}
 		.img-1 {
 			background: url(../img/img-1.jpg) center top no-repeat;
@@ -181,7 +181,7 @@ header {
 			margin: 0;
 			padding: 0;
 			text-indent: 120px;
-			padding: 190px 0 0 85px;
+			padding: 208px 0 0 85px;
 			font-family: 'Verdana';
 			text-shadow: 0 3px 20px #1f1f3e;
 			color: white;
@@ -199,7 +199,7 @@ header {
 
 
 .bg-c-1 {
-	padding: 50px 0 54px;
+	padding: 51px 0 50px;
 	background-color: #052d40;
 }
 
@@ -214,14 +214,14 @@ header {
 }
 
 .bg-c-2 {
-	padding: 100px 0 40px;
+	padding: 90px 0 27px;
 	border-bottom: 15px solid #96c686;
 	background-color: #2d8d0c;
 }
 
 .icon-set {
 	.item {
-		margin-bottom: 69px;
+		margin-bottom: 67px;
 		width: 50%;
 		float: left;
 		position: relative;
@@ -232,7 +232,7 @@ header {
 		span[class^=icon] {
 			display: block;
 			position: absolute;
-			top: 0;
+			top: 10px;
 			left: 0;
 			width: 146px;
 			height: 146px;
@@ -253,7 +253,7 @@ header {
 		h4 {
 			margin: 0;
 			padding: 0;
-			margin-bottom: 15px;
+			margin-bottom: 6px;
 			color: white;
 			font-size: 30px;
 			line-height: 39px;
@@ -284,12 +284,12 @@ header {
 }
 
 .section-map {
-	padding: 50px 0 24px;
+	padding: 50px 0 41px;
 	.c-2 {
 		margin-bottom: 20px;
 	}
 	p {
-		margin-bottom: 35px;
+		margin-bottom: 26px;
 	}
 	.wrapper {
 		background: url(../img/map.jpg) 178px 0px no-repeat;
@@ -308,6 +308,9 @@ header {
 	&:hover {
 		text-decoration: none;
 	}
+	&:hover:after {
+		opacity: .85;
+	}
 	&:after {
 		content: '';
 		display: block;
@@ -322,11 +325,11 @@ header {
 }
 
 .section-events {
-	padding: 55px 0;
+	padding: 55px 0 76px;
 	background: #f2f2f2;
 	margin-bottom: 60px;
 	.title {
-		margin-bottom: 30px;
+		margin-bottom: 20px;
 	}
 	.events-wrapp {
 		.events-wrapp-item {
@@ -339,7 +342,7 @@ header {
 			}
 			img {
 				display: block;
-				margin-bottom: 35px;
+				margin-bottom: 36px;
 			}
 			p {
 				margin-bottom: 45px;
@@ -347,16 +350,17 @@ header {
 		}
 		.head {
 			color: #fc3514;
+			font-size: 18px;
 			text-transform: uppercase;
-			margin-bottom: 15px;
+			margin-bottom: 13px;
 		}
 	}
 }
 
 
 footer {
-	padding-bottom: 160px;
-	padding-top: 50px;
+	padding-bottom: 155px;
+	padding-top: 57px;
 	position: relative;
 	background: #052d40 url(../img/footer.png) center bottom no-repeat;
 	&:after {
@@ -439,6 +443,9 @@ footer {
 			&.foot-ico-2 {background-position: -84px top;}
 			&.foot-ico-3 {background-position: -169px top;}
 			&.foot-ico-4 {background-position: -253px top;}
+			&:hover {
+				opacity: .85;
+			}
 		}
 	}
 }
