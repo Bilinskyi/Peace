@@ -8,8 +8,6 @@
 
 	<?php include "incl/head.php"; ?>
 
-	
-
 	<section class="navigation">
 		<div class="wrapper justify-c">
 			<div class="jfc">

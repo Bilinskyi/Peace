@@ -8,7 +8,11 @@
   <meta name="viewport" content="width=device-width">
   <title>Document</title>
 
+
+
 <?php include "incl/head.php"; ?>
+
+
 
   <section class="navigation">
     <div class="wrapper justify-c">
