@@ -5,39 +5,18 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width">
 	<title>Document</title>
-	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-	<link rel="icon" href="favicon.ico" type="image/x-icon">
-	<link rel="stylesheet" href="fonts/fonts.css">
-	<link rel="stylesheet" href="css/style.css">
-	<link rel="stylesheet" href="fancybox/jquery.fancybox.css">
-	<link rel="stylesheet" href="bx-slider/jquery.bxslider.css">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.2/css/font-awesome.min.css">
-	<!--[if lt IE 9]>
-	<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js">
-	</script><script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-	<![endif]-->
-</head>
-<body>
 
-	<header>
-		<div class="wrapper">
-			<a href="index.html" class="logo"><img src="img/logo.png" alt="" width="367" height="340"></a>
-			<div class="text-container">
-				Некоммерческий фонд содействия<br>
-				<div class="right-t"><span>укреплению мира, дружбы,</span></div>  
-				развитию гуманизма и милосердия <br>
-				<b>“Мир и Любовь”</b>
-			</div>
-		</div>
-	</header>
+	<?php include "incl/head.php"; ?>
+
+	
 
 	<section class="navigation">
 		<div class="wrapper justify-c">
 			<div class="jfc">
 				<a href="index.html" class="home"><img src="img/home-icon.png" alt="" width="18" height="18"></a>
 				<ul class="nav">
-					<li><a href="">о фонде</a></li>
-					<li><a href="">новости</a></li>
+					<li><a href="about.php">о фонде</a></li>
+					<li><a href="news.php">новости</a></li>
 					<li><a href="">деятельность</a></li>
 					<li><a href="">галерея</a></li>
 					<li><a href="">контакты</a></li>
@@ -124,7 +103,7 @@
 				Важными задачами в рамках достижения цели является оказание гуманитарной помощи странам, подвергнувшимся агрессии, контроль соблюдения мирных договоренностей в качестве независимого наблюдателя, что особенно важно в условиях нынешней политической ситуации на мировой арене, разработка способов невооруженного решения начинающихся конфликтов, содействие их мирному урегулированию.
 			</p>
 			<div class="right-t">
-				<a href="#" class="link-1">подробнее</a>
+				<a href="about.php" class="link-1">подробнее</a>
 			</div>
 		</div>
 	</section>
@@ -140,7 +119,7 @@
 						В пик отпусков и летних каникул 8 июля с 16.00 до 21.00 в Сочи состоится первый семейный маркет-фестиваль «Фамилия» #фамилияфест.Большой и светлый праздник для всей семьи пройдет в сквере напротив Морпорта. Для
 					</p>
 					<div class="right-t">
-						<a href="#" class="link-1">подробнее</a>
+						<a href="news.php" class="link-1">подробнее</a>
 					</div>
 				</div>
 				<div class="events-wrapp-item">
@@ -150,7 +129,7 @@
 						Для сочинцев и гостей курорта специально организуют семейные и детские развлечения, интерактивы, арт-пространство, lounge-пространство, будет работать дизайн и beaty-маркет, а также различные фотозоны.
 					</p>
 					<div class="right-t">
-						<a href="#" class="link-1">подробнее</a>
+						<a href="news.php" class="link-1">подробнее</a>
 					</div>
 				</div>
 				<div class="events-wrapp-item">
@@ -160,87 +139,16 @@
 						Большой и светлый праздник для всей семьи пройдет в сквере напротив Морпорта. Для сочинцев и гостей курорта специально организуют семейные и детские развлечения, интерактивы, арт-пространство, 
 					</p>
 					<div class="right-t">
-						<a href="#" class="link-1">подробнее</a>
+						<a href="news.php" class="link-1">подробнее</a>
 					</div>
 				</div>
 			</div>
 		</div>
 	</section>
 
+<?php include "incl/footer.php"; ?>
 
-	<footer>
-		<div class="wrapper">
-			<div class="wrapp-menu clearfix">
-				<div class="menu justify-c">
-					<div class="menu-item jfc">
-						<div class="dsc">о фонде</div>
-						<ul class="list">
-							<li><a href="">миссия</a></li>
-							<li><a href="">цели</a></li>
-							<li><a href="">документы</a></li>
-							<li><a href="">отчеты</a></li>
-							<li><a href="">как помочь</a></li>
-						</ul>
-					</div>
-					<div class="menu-item jfc">
-						<div class="dsc">новости</div>
-						<ul class="list">
-							<li><a href="">новости</a></li>
-							<li><a href="">архив</a></li>
-						</ul>
-					</div>
-					<div class="menu-item jfc">
-						<div class="dsc">деятельность</div>
-						<ul class="list">
-							<li><a href="">проекты</a></li>
-							<li><a href="">миссия</a></li>
-							<li><a href="">цели</a></li>
-							<li><a href="">документы</a></li>
-							<li><a href="">отчеты</a></li>
-						</ul>
-					</div>
-					<div class="menu-item jfc">
-						<div class="dsc">галерея</div>
-						<ul class="list">
-							<li><a href="">проекты</a></li>
-							<li><a href="">цели</a></li>
-							<li><a href="">документы</a></li>
-							<li><a href="">отчеты</a></li>
-						</ul>
-					</div>
-					<div class="menu-item jfc">
-						<div class="dsc">контакты</div>
-					</div>
-				</div>
-				<div class="copy">© 2016 «Мир и Любовь»</div>
-			</div>
-				<div class="contacts">
-					<div class="ico-1">Санкт-Петербург, Невский пр. 44</div>
-					<div class="ico-2">+7 (905) 263 16 16</div>
-					<div class="ico-3">peaceandlovefond@gmail.com</div>
-				</div>
-				<div class="social-2">
-					<a href="" class="foot-ico-1">&nbsp;</a>
-					<a href="" class="foot-ico-2">&nbsp;</a>
-					<a href="" class="foot-ico-3">&nbsp;</a>
-					<a href="" class="foot-ico-4">&nbsp;</a>
-				</div>
-		</div>
-	</footer>
-
-
-
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-	<script src="bx-slider/jquery.bxslider.min.js"></script>
-	<script src="fancybox/jquery.fancybox.pack.js"></script>
-	<script src="js/check_ajax.js"></script>       
-	<script src="js/jquery.maskedinput.js"></script>   
-	<script src="js/jquery.form.js"></script>       
-	<script src="js/jquery.validate.js"></script>     
-	<script src="js/main.js"></script>
-
-<!-- <script src="http://api-maps.yandex.ru/2.0-stable/?load=package.standard&lang=ru-RU" type="text/javascript"></script>
-	<script src="js/yandex.js"></script>    YANDEX MAP-->
+	
 
 </body>
 </html>

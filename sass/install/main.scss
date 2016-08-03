@@ -53,7 +53,7 @@ p {margin: 0; padding: 0;}
 // 	display: inline-block;
 // 	outline: none;
 // 	border: none;
-	
+
 // 	&:hover {
 // 		background: #6db82a;
 // 	}
@@ -140,6 +140,10 @@ header {
 					color: white;
 					background: #2d8d0c;
 				}
+				&.active {
+					color: white;
+					background: #2d8d0c;
+				}
 			}
 		}
 	}
@@ -201,6 +205,12 @@ header {
 .bg-c-1 {
 	padding: 51px 0 50px;
 	background-color: #052d40;
+}
+
+.line-bottom {
+	border-bottom: 1px solid #6b838e;
+	padding-bottom: 50px;
+	margin-bottom: 47px;
 }
 
 .title {
@@ -317,11 +327,18 @@ header {
 		position: absolute;
 		right: 0;
 		top: 50%;
-		background: url(../img/link-1.png) no-repeat;
+		background: url(../img/link-1.png) center center no-repeat;
 		width: 52px;
-		height: 52px;
+		height: 55px;
 		transform: translateY(-50%);
 	}
+	&.link-2:after {
+		background: url(../img/link-drop.png) center center no-repeat;
+	}
+	&.link-2.active:after {
+			background: url(../img/link-up.png) center center no-repeat;
+			right: 2px;
+		}
 }
 
 .section-events {
@@ -348,13 +365,14 @@ header {
 				margin-bottom: 45px;
 			}
 		}
-		.head {
-			color: #fc3514;
-			font-size: 18px;
-			text-transform: uppercase;
-			margin-bottom: 13px;
-		}
 	}
+}
+
+.head {
+	color: #fc3514;
+	font-size: 18px;
+	text-transform: uppercase;
+	margin-bottom: 13px;
 }
 
 
@@ -453,9 +471,61 @@ footer {
 
 
 
+.section-about {
+	padding: 50px 0 90px;
+	.title {
+		margin-bottom: 20px;
+	}
+	.doc {
+		@extend .nrm;
+		text-decoration: none;
+		background: url(../img/doc.png) left top no-repeat;
+		padding: 4px 0 4px 39px;
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+}
 
 
 
+.section-news {
+	padding: 0;
+	.head {
+		// font-family: "MyriadProBold";
+		margin-bottom: 0;
+	}
+	.news-item {
+		background: #f5f6f6;
+		img {
+			display: block;
+			float: left;
+		}
+		.news-text {
+			min-height: 180px;
+			margin-left: 330px;
+			padding-left: 15px;
+			background: #fff;
+			padding-bottom: 58px;
+		}
+		.right-t {
+			margin: 25px 0 0;
+		}
+		&:first-child {
+			img {
+				margin-top: 60px;
+			}
+			.news-text {
+				padding-top: 60px;
+			}
+		}
+		&:last-child {
+			.news-text {
+				padding-bottom: 113px;
+			}
+		}
+	}
+}
 
 
 
